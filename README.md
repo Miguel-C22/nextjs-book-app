@@ -34,3 +34,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+`https://www.googleapis.com/books/v1/volumes?q=man%20up+inauthor:bedros%20keuilian&key=${bookKey}`  Get Specific book with book name and author
+`https://www.googleapis.com/books/v1/volumes?q=book&startIndex=40&maxResults=10&key=${bookKey}` Get Random Books
+`https://www.googleapis.com/books/v1/volumes?q=${userInput}&startIndex=40&maxResults=10&key=${bookKey}` Get books that have that title
