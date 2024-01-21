@@ -13,7 +13,7 @@ const SavedBooks = () => {
   
   const fetchData = async () => {
     try {
-      const res = await fetch('http://localhost:3001/api/books', {
+      const res = await fetch('https://nextjs-book-app.vercel.app/api/books', {
         cache: 'no-store',
       });
 

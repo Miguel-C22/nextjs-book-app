@@ -7,7 +7,7 @@ function DeleteBook({ bookId, onBookDeleted, saveDeleteHandle }) {
 
   const removeTopic = async () => {
     try {
-      const res = await fetch(`http://localhost:3001/api/books?bookId=${bookId}`, {
+      const res = await fetch(`https://nextjs-book-app.vercel.app/api/books?bookId=${bookId}`, {
         method: "DELETE"
       });
 

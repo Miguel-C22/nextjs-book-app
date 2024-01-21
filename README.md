@@ -39,3 +39,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 `https://www.googleapis.com/books/v1/volumes?q=man%20up+inauthor:bedros%20keuilian&key=${bookKey}`  Get Specific book with book name and author
 `https://www.googleapis.com/books/v1/volumes?q=book&startIndex=40&maxResults=10&key=${bookKey}` Get Random Books
 `https://www.googleapis.com/books/v1/volumes?q=${userInput}&startIndex=40&maxResults=10&key=${bookKey}` Get books that have that title
+
+
+Example for for the fetch url if you are running on local host http://localhost:3001/api/books

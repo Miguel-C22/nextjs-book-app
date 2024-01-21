@@ -7,7 +7,7 @@ function AddBook({ book, saveDeleteHandle}) {
   const handleSaveBook = async (book) => {
     try {
       // Send the recently added book to the server
-      const res = await fetch('http://localhost:3001/api/books', {
+      const res = await fetch('https://nextjs-book-app.vercel.app/api/books', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
