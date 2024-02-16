@@ -8,17 +8,24 @@ const openai = new OpenAI({
 //-------------------------Communicate with the AI-----------------------------
 
 /* Basic Set up  */
+
+// This function generates a response based on a conversation array
 // export const generateChatResponse = async (conversation) => {
 //     try {
+//         // Call OpenAI's chat API to generate a response
 //         const response = await openai.chat.completions.create({
 //             messages: conversation,
 //             model: 'gpt-3.5-turbo',
 //             temperature: 0
 //         });
 
+//         // Retrieve the generated message from the response
 //         const generatedMessage = response.choices[0].message['content'];
+
+//         // Return the generated response
 //         return generatedMessage;
 //     } catch (error) {
+//         // Handle errors and return an error message
 //         console.error('Error generating chat response:', error);
 //         return 'An error occurred';
 //     }
